@@ -187,7 +187,6 @@ const wpFeSanitizeTitle = ( title ) => {
 }
 
 const copyToClipboard = str => {
-	console.log(str)
 	const el = document.createElement('textarea');
 	el.value = str;
 	document.body.appendChild(el);
